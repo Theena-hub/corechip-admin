@@ -1086,10 +1086,10 @@ a {
 .viewProductSec .card{
   height: 100%;
 }
-.viewProductSec .card img{
+/* .viewProductSec .card img{
   width: 160px;
   height: 160px;
-}
+} */
 /* view product page - end */
 /* signin page - start */
 .signIn {
@@ -1108,3 +1108,40 @@ a {
 }
 /* signin page - end */
 /* ADMIN PANEL - END */
+.img-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.img-list img {
+  width: 55px;
+  height: 55px;
+  border: .75px solid #808080;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+@media (min-width:576px) {
+  .img-list img {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+  }
+}
+
+@media (min-width:768px) {
+  .img-list img {
+    width: 65px;
+    height: 65px;
+    padding: 6px;
+  }
+}
+.img-fluid{
+  width: 100%;
+  height: auto;
+}
