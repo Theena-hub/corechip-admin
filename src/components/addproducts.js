@@ -101,6 +101,7 @@ const AddProducts = () => {
                                         id='productImage'
                                         className="form-control mt-8"
                                         type='file'
+                                        multiple
                                         accept='image/*'
                                         onChange={handleImageChange}
                                     />

@@ -1,5 +1,5 @@
 import axios from 'axios';
-const MASTER_URL = 'http://localhost:1234';
+const MASTER_URL = 'https://us-central1-corechipadminbackend.cloudfunctions.net/api';
 
 export const login = async (username, password) => {
     console.log(username, password)

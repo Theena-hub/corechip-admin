@@ -38,11 +38,11 @@ const Signin = () => {
                         <form className="form-group">
                             <div className="d-flex flex-column my-4">
                                 <label className="descripionOne fw-500 white text-uppercase">Username</label>
-                                <input className="form-control fw-600 text-uppercase mr-2" name="name" type="text" placeholder="enter username"  required  onChange={(e) => setUsername(e.target.value)}/>
+                                <input className="form-control fw-600 mr-2" name="name" type="text" placeholder="enter username"  required  onChange={(e) => setUsername(e.target.value)}/>
                             </div>
                             <div className="d-flex flex-column my-4">
                                 <label className="descripionOne fw-500 white text-uppercase">Password</label>
-                                <input className="form-control text-uppercase fw-600 mr-2" name="password" type="password" placeholder="enter password"  required onChange={(e) => setPassword(e.target.value)}/>
+                                <input className="form-control fw-600 mr-2" name="password" type="password" placeholder="enter password"  required onChange={(e) => setPassword(e.target.value)}/>
                             </div>
                             <button className="btn d-flex fw-600 text-uppercase mt-20 bgPrimaryColor m-auto" onClick={handleLogin}>SignIn</button>
                         </form>
