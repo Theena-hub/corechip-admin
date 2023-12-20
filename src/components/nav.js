@@ -76,11 +76,11 @@ const Navigation = () => {
                                     <p className="sd-link">Users</p>
                                 </li>
                             </Link>
-                            <Link to="/payments">
+                            {/* <Link to="/payments">
                                 <li>
                                     <p className="sd-link">Payments</p>
                                 </li>
-                            </Link>
+                            </Link> */}
                             <Link to="/contactus">
                                 <li>
                                     <p className="sd-link">Contactus</p>

@@ -26,7 +26,7 @@ const Users = () => {
                 <h2 className="titleThree fw-500 primaryColor text-uppercase">Users List</h2>
                 <div className="table-responsive">
                     <table className="table table-bordered table-striped table-hover">
-                    <thead>
+                        <thead>
                             <tr>
                                 <th>S.NO</th>
                                 <th>Username</th>
@@ -35,9 +35,9 @@ const Users = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            {data.map((item,index) => (
+                            {data.map((item, index) => (
                                 <tr key={index}>
-                                    <td>{index+1}</td>
+                                    <td>{index + 1}</td>
                                     <td>{item.username}</td>
                                     <td>{item.email}</td>
                                     <td>{item.mobileNo}</td>
